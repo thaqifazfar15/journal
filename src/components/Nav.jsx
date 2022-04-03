@@ -12,8 +12,8 @@ function Nav() {
 
   return (
     <div className="fixed top-0 left-0 w-full shadow-md">
-      <div className="items-center justify-between bg-white py-5 px-5 md:flex md:px-12">
-        <div className="flex cursor-pointer items-center text-2xl font-bold text-gray-800 md:mb-0">
+      <div className="items-center justify-between bg-white py-5 px-5 md:flex md:px-6">
+        <div className="kaushan-font flex cursor-pointer items-center text-4xl font-bold text-gray-800 md:mb-0">
           Journal
         </div>
 
@@ -32,7 +32,7 @@ function Nav() {
           {Links.map((Link) => (
             <li
               key={Link.name}
-              className="text-5sm order-1 my-7 md:my-0 md:ml-6 "
+              className="text-5sm inter-font order-1 my-7 md:my-0 md:ml-6 "
             >
               <a
                 href={Link.link}
