@@ -1,12 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/Nav";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
       <Nav />
-      <div className="bg-indigo-600 w-full h-screen"></div>
+      <div className="h-screen w-full bg-indigo-400">
+        <Main />
+      </div>
     </>
   );
 }
