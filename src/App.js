@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="h-screen w-full bg-indigo-400">
+      <div className="h-screen w-full bg-indigo-400 pt-[80px]">
         <Main />
       </div>
     </>
