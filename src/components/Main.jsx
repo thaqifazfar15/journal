@@ -4,7 +4,7 @@ function Main() {
   return (
     <div className="flex h-[100%] flex-col items-center justify-center">
       {/* Container */}
-      <div className="inter-font flex h-full max-w-[1200px] flex-col items-start justify-center px-7">
+      <div className="inter-font flex h-full max-w-[1200px] flex-col items-start justify-center px-7 pb-12 md:pb-4">
         <p className="inter-font md:text-md text-2xs text-gray-600">
           Hi there, welcome to my
         </p>
