@@ -21,7 +21,11 @@ function Nav() {
           onClick={() => setOpen(!open)}
           className="absolute right-8 top-6 cursor-pointer text-3xl md:hidden"
         >
-          <ion-icon name={open ? "close" : "menu"}></ion-icon>
+          <ion-icon
+            size="large"
+            className=""
+            name={open ? "close" : "menu"}
+          ></ion-icon>
         </div>
 
         <ul
