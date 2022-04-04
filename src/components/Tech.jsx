@@ -15,13 +15,13 @@ function Tech() {
   ];
 
   return (
-    <div className="flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center px-8">
+    <div className="relative z-[0] flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center px-8 py-8">
       <h1 className="mb-9 text-center text-3xl font-bold md:text-5xl">
         Technologies I'm Learning
       </h1>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="relative z-[1] grid grid-cols-3 gap-5">
         {Techs.map((Tech) => (
-          <div className="icon-name icon-title:hover relative grid h-20 w-20 place-items-center shadow-lg duration-300 ease-in hover:translate-y-3 hover:scale-105 md:h-[7rem] md:w-[7rem]">
+          <div className="icon-name icon-title:hover z-2 relative grid h-20 w-20 place-items-center shadow-lg duration-300 ease-in hover:translate-y-3 hover:scale-105 md:h-[7rem] md:w-[7rem]">
             <span className="icon-title md:text-xl">{Tech.name}</span>
             <ion-icon name={Tech.logo}></ion-icon>
           </div>
