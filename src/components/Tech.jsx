@@ -15,8 +15,8 @@ function Tech() {
   ];
 
   return (
-    <div className="relative z-[0] flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center px-8 py-8">
-      <h1 className="mb-9 text-center text-3xl font-bold md:text-5xl">
+    <div className="py-18 relative z-[0] flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center px-8">
+      <h1 className="mb-6 text-center text-3xl font-bold md:text-5xl">
         Technologies I'm Learning
       </h1>
       <div className="relative z-[1] grid grid-cols-3 gap-5">
@@ -36,7 +36,7 @@ function Tech() {
         </div>
       </div>
 
-      <h1 className="mt-16 mb-9 text-center text-3xl font-bold">
+      <h1 className="mt-12 mb-6 text-center text-3xl font-bold">
         Will Learn Soon
       </h1>
 
