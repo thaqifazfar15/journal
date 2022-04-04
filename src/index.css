@@ -18,3 +18,59 @@ body {
 .kaushan-font {
   font-family: "Kaushan Script", cursive;
 }
+
+ion-icon {
+  font-size: 4rem;
+  color: black;
+}
+
+.icon-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: Verdana;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.icon-title:hover {
+  opacity: 100%;
+}
+
+.icon-name {
+  position: relative;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.icon-name::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(2, 139, 123, 0.5),
+    rgba(55, 61, 35, 0.749)
+  );
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+
+.icon-name:hover::before {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  ion-icon {
+    font-size: 5.3rem;
+    color: black;
+  }
+}
