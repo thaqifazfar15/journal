@@ -68,6 +68,13 @@ ion-icon {
   opacity: 1;
 }
 
+/* Navbar */
+
+.footer-icon a ion-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
 @media (min-width: 768px) {
   ion-icon {
     font-size: 5.3rem;
