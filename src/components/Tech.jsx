@@ -15,7 +15,7 @@ function Tech() {
   ];
 
   return (
-    <div className="py-18 relative z-[0] flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center px-8">
+    <div className="relative z-[0] flex min-h-[calc(100vh-80px)] w-full flex-col items-center justify-center py-16 px-8">
       <h1 className="mb-6 text-center text-3xl font-bold md:text-5xl">
         Technologies I'm Learning
       </h1>
