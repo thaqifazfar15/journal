@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
 import Tech from "./components/Tech";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Main />
       </div>
       <Tech />
+      <Footer />
     </>
   );
 }
