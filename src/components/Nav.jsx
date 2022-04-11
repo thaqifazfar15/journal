@@ -11,9 +11,9 @@ function Nav() {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 z-50 w-full shadow-md">
-      <div className="items-center justify-between bg-white py-5 px-5 md:flex md:px-6">
-        <div className="kaushan-font flex cursor-pointer items-center text-4xl font-bold text-gray-800 md:mb-0">
+    <div className="fixed top-0 left-0 z-10 w-full shadow-md">
+      <div className="z-12 items-center justify-between bg-white py-5 px-5 md:flex md:px-6">
+        <div className="kaushan-font z-12 flex cursor-pointer items-center text-4xl font-bold text-gray-800 md:mb-0">
           Journal
         </div>
 
@@ -29,8 +29,8 @@ function Nav() {
         </div>
 
         <ul
-          className={`absolute left-0 z-[50] flex w-full flex-col overflow-hidden bg-white py-4 pl-5 opacity-0 duration-500 ease-in md:static md:z-auto md:w-auto md:flex-row md:items-center md:py-0 md:pl-0 md:opacity-100 ${
-            open ? "top-[4.6rem] opacity-100" : "top-[-490px]"
+          className={`absolute left-0 z-[-1] flex w-full flex-col bg-white py-4 pl-5 opacity-0 duration-500 ease-in md:static md:z-auto md:w-auto md:flex-row md:items-center md:py-0 md:pl-0 md:opacity-100 ${
+            open ? "top-[4.6rem] opacity-100" : "top-[-390px]"
           }`}
         >
           {Links.map((Link) => (
